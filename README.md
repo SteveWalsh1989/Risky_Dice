@@ -1,7 +1,7 @@
 # Risky Dice game
 
 
-![Risky Rewards Dice Game](app-gif.gif)
+![Risky Rewards Dice Game](assets/demo.gif)
 
 A small Javascript project to brush up on things, particularily DOM element manipulation.
 
