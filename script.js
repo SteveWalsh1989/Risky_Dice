@@ -9,7 +9,7 @@ GAME RULES:
 */
 
 // Variables
-var scores, roundScore, activePlayer, dice;
+var scores, roundScore, activePlayer;
 
 totalScores = [0,0];
 roundScore = [0,0];
@@ -18,10 +18,25 @@ activePlayer = 0;  // P1 goes first
 // hide dice on game start 
 document.querySelector('.dice').style.display = 'none';
 
-// get dice val
-dice = Math.floor(Math.random() * 7);
+// Set first player
+//document.querySelector('#current-' + activePlayer).textContent = dice;
+
+
+
+// Get roll button click
+document.querySelector('.btn-roll').addEventListener('click', function(){
+    // Set dice val
+    var dice_val = Math.floor(Math.random() * 6) + 1;
+
+    // Set display value on dice
+    var dice_obj = document.querySelector('.dice')
+    
+    dice_obj.style.display = 'block';
+    dice_obj.src = "dice-" + dice_val + ".png";
+    
+    // Update round score if value is NOT 1
+
+
+    
  
-// change value for active player per
-document.querySelector('#current-' + activePlayer).textContent = dice;
-
-
+});
