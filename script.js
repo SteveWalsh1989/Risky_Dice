@@ -44,7 +44,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
     }
 });
 
-
+// logic when user selects 'hold' button to store scores
 document.querySelector('.btn-hold').addEventListener('click', function() {
     if (gamePlaying) {
         // Add CURRENT score to GLOBAL score
@@ -67,7 +67,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     }
 });
 
-
+// swaps player 
 function nextPlayer() {
     //Next player
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
