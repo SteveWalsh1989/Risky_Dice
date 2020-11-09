@@ -1,7 +1,14 @@
 # Risky Dice game
+A small Javascript project to brush up on things, particularily DOM element manipulation.
 
 
-![Risky Rewards Dice Game](assets/demo.gif)
+Old Folder contains first attempt and the modern folder contains basically the same project but using modern ES6+ instead 
+
+# More Modern version
+![Risky Rewards Dice Game Modern](old/images/demo.gif)
+
+# Older version
+![Risky Rewards Dice Game Old](old/assets/demo.gif)
 
 A small Javascript project to brush up on things, particularily DOM element manipulation.
 
